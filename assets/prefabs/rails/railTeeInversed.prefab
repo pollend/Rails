@@ -1,6 +1,11 @@
 {
-    "Rail": {},
-     "PathDescriptor":{
-        "descriptors" : ["SegmentedPaths:leftFrontPath", "SegmentedPaths:leftRightPath"]
+     "Rails:Rail": {},
+     "SegmentedPaths:PathDescriptor":{
+       "descriptors" : [ "SegmentedPaths:leftFrontPath","SegmentedPaths:leftRightPath"]
+     },
+     "BlockDropGrammar": {
+         "blockDrops": [
+             "Rails:rails"
+         ]
      }
 }
